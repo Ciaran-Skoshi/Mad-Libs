@@ -2,8 +2,8 @@
 
 
 def main():
-    pass
+    print("Hello, World!")
 
 
-if __name__ == "__main":
+if __name__ == "__main__":
     main()
