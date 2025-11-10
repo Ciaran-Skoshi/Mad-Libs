@@ -20,7 +20,6 @@ def main():
     showMadLib(selectedMadLib, fillInWords, filledInWords)
 
 def getMadLibs(dir :str) -> list:
-    print("Is madLibs folder present?", os.path.isdir(dir))
     madList = []
     for file in os.scandir(dir):
         if file.name.endswith(".txt"):
@@ -40,8 +39,6 @@ def selectMadLib(files :list) -> str:
         except:
             print('Please enter a vaild string/number (The number you see before the ".")')
     select -= 1
-    print("madLibsFiles List:", files)
-    print("You selected: ", files[select].name)
     with open(os.path.join(files[select]), "r") as f:
         content = f.read()
     return content
