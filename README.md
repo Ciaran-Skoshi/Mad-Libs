@@ -3,7 +3,7 @@ Skoshi's Mad Libs terminal game
 
 How to play:
 ------------
-Make a folder in the same folder you have "main.py" downloaded in named "madLibs" (case sensitive) and put your Mad Libs in it! Then just run "main.py" through a <a href="https://www.python.org/downloads/" target="_blank">Python 3 interpreter</a> and play!
+Make a folder in the same folder you have "main.py" downloaded in named "madLibs" (case sensitive) and put your Mad Libs in it! Then just run "main.py" through a [Python 3 interpreter](https://www.python.org/downloads/) and play!
 
 How to make a Mad Lib:
 ----------------------
